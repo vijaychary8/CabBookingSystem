@@ -49,22 +49,6 @@ public class DriverController {
 		}
 		return driverResponse;
 	}
-//	
-//	@PostMapping(path = "/addvehicle")
-//	public DriverResponse addVehicle(@RequestBody VehicleEntity vehicle) {
-//		boolean isAdded = service.addVehicle(vehicle);
-//		DriverResponse driverResponse = new DriverResponse();
-//
-//		if (isAdded) {
-//			driverResponse.setError(false);
-//			driverResponse.setMessage("Added Sucessfully");
-//		} else {
-//			driverResponse.setError(true);
-//			driverResponse.setMessage("Record id not added");
-//		}
-//		return driverResponse;
-//	}
-
 	@GetMapping(path = "/getallvehicles")
 
 	public DriverResponse getAllVehicles() {
