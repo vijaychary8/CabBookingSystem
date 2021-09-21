@@ -22,21 +22,6 @@ class Header extends Component {
     };
   }
 
-//   componentDidMount() {
-//     const user = AuthService.getCurrentUser();
-
-//     if (user) {
-//       this.setState({
-//         currentUser: user,
-//         showAdminBoard: user.roles.includes("ROLE_ADMIN"),
-//       });
-//     }
-//   }
-
-//   logOut() {
-//     AuthService.logout();
-//   }
-
   toggle() {
     this.setState({
       dropdownOpen: !this.state.dropdownOpen
